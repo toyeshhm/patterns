@@ -43,7 +43,7 @@ fn main() {
 }
 ```
 
-The compiler throws following errors:
+The compiler throws the following errors:
 
 ```ignore
 let connection_string = &mut db.connection_string;
@@ -76,7 +76,7 @@ struct Database {
     pool_size: PoolSize,
 }
 
-// print_database can then take ConnectionString, Timeout and Poolsize struct instead
+// print_database can then take ConnectionString, Timeout and PoolSize struct instead
 fn print_database(connection_str: ConnectionString, timeout: Timeout, pool_size: PoolSize) {
     println!("Connection string: {connection_str:?}");
     println!("Timeout: {timeout:?}");

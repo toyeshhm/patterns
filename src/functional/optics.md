@@ -72,7 +72,7 @@ pieces?
 One way to understand it is to look at a functional languages concept called
 *optics*.
 
-This is a way to do composition of behavior and proprieties that is designed to
+This is a way to do composition of behavior and properties that is designed to
 facilitate patterns common to Rust: failure, type transformation, etc.[^1]
 
 The Rust language does not have very good support for these directly. However,

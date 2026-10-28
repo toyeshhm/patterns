@@ -64,7 +64,7 @@ struct Error {
 With these types, we will need to repeat the trait bounds for `G` in at least a
 few places. Readability suffers, partially due to the fact that the getter
 returns a `Result`. Introducing a bound for "getters" allows a more expressive
-bound and eliminate one of the type parameters:
+bound and eliminates one of the type parameters:
 
 ```rust
 # use std::fmt::Display;

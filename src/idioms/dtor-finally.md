@@ -79,7 +79,7 @@ will warn that the finalizer is never used. However, do not call the variable
 `_` with no suffix - in that case it will be destroyed immediately.
 
 In Rust, destructors are run when an object goes out of scope. This happens
-whether we reach the end of block, there is an early return, or the program
+whether we reach the end of the block, there is an early return, or the program
 panics. When panicking, Rust unwinds the stack running destructors for each
 object in each stack frame. So, destructors get called even if the panic happens
 in a function being called.

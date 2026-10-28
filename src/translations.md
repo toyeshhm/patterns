@@ -1,8 +1,8 @@
 # Translations
 
 We are utilizing
-[mdbook-i18n-helper](https://github.com/google/mdbook-i18n-helpers). Please read
-up on how to *add* and *update* translations in
+[mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers). Please
+read up on how to *add* and *update* translations in
 [their repository](https://github.com/google/mdbook-i18n-helpers#creating-and-updating-translations)
 
 ## External translations

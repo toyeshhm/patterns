@@ -31,7 +31,7 @@ install it by running `cargo install mdbook`.
 
 - `cargo install mdbook-pandoc` for rendering the book to PDF
 
-- `cargo install mdbook-i18n-helpers` for translation and i8n support
+- `cargo install mdbook-i18n-helpers` for translation and i18n support
 
 #### Texlive
 
@@ -53,7 +53,7 @@ root directory of the repository:
 
 - `mdbook build`
 
-  Builds static html pages as output and place them in the `/book` directory by
+  Builds static html pages as output and places them in the `/book` directory by
   default.
 
 - `mdbook serve`

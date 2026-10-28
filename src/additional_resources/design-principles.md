@@ -24,7 +24,7 @@
 
 ## [CRP (Composite Reuse Principle) or Composition over inheritance](https://en.wikipedia.org/wiki/Composition_over_inheritance)
 
-“a the principle that classes should favor polymorphic behavior and code reuse
+“the principle that classes should favor polymorphic behavior and code reuse
 by their composition (by containing instances of other classes that implement
 the desired functionality) over inheritance from a base or parent class” -
 Knoernschild, Kirk (2002). Java Design - Objects, UML, and Process

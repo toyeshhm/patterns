@@ -80,7 +80,7 @@ over the data structure is non-trivial, using the fold pattern is more
 appropriate.
 
 Like the visitor pattern, the fold pattern allows us to separate traversal of a
-data structure from the operations performed to each node.
+data structure from the operations performed on each node.
 
 ## Discussion
 

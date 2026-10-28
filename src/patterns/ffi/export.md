@@ -107,7 +107,7 @@ This may all seem speculative, but this is what a pointer means in C. It means
 the same thing as Rust: "user defined lifetime." The user of the library needs
 to read the documentation in order to use it correctly. That said, there are
 some decisions that have fewer or greater consequences if users do it wrong.
-Minimizing those are what this best practice is about, and the key is to
+Minimizing those is what this best practice is about, and the key is to
 *transfer ownership of everything that is transparent*.
 
 ## Advantages
@@ -146,7 +146,7 @@ struct DbmKeysIter<'it> {
 impl<'it> Iterator for DbmKeysIter<'it> { ... }
 ```
 
-This is clean, idiomatic, and safe. thanks to Rust's guarantees. However,
+This is clean, idiomatic, and safe, thanks to Rust's guarantees. However,
 consider what a straightforward API translation would look like:
 
 ```rust,ignore

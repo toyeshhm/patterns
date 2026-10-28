@@ -2,14 +2,14 @@
 
 ## Description
 
-The basic idea of the Command pattern is to separate out actions into its own
+The basic idea of the Command pattern is to separate out actions into their own
 objects and pass them as parameters.
 
 ## Motivation
 
 Suppose we have a sequence of actions or transactions encapsulated as objects.
 We want these actions or commands to be executed or invoked in some order later
-at different time. These commands may also be triggered as a result of some
+at a different time. These commands may also be triggered as a result of some
 event. For example, when a user pushes a button, or on arrival of a data packet.
 In addition, these commands might be undoable. This may come in useful for
 operations of an editor. We might want to store logs of executed commands so
@@ -95,7 +95,7 @@ fn main() {
 ## Approach: Using function pointers
 
 We could follow another approach by creating each individual command as a
-different function and store function pointers to invoke these functions later
+different function and storing function pointers to invoke these functions later
 at a different time. Since function pointers implement all three traits `Fn`,
 `FnMut`, and `FnOnce` we could as well pass and store closures instead of
 function pointers.
@@ -211,7 +211,7 @@ which uses trait objects when it registers a handler function for routes. In
 case of using `Fn` trait objects we can create and use commands in the same way
 as we used in case of function pointers.
 
-As performance, there is always a trade-off between performance and code
+As for performance, there is always a trade-off between performance and code
 simplicity and organisation. Static dispatch gives faster performance, while
 dynamic dispatch provides flexibility when we structure our application.
 

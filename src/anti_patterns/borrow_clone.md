@@ -54,7 +54,7 @@ to write inefficient code**, in cases such as when:
 - satisfying the borrow checker is really complicated, and you prefer to
   optimize readability over performance
 
-If an unnecessary clone is suspected, The
+If an unnecessary clone is suspected, the
 [Rust Book's chapter on Ownership](https://doc.rust-lang.org/book/ownership.html)
 should be understood fully before assessing whether the clone is required or
 not.

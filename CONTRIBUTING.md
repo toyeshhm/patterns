@@ -68,7 +68,7 @@ In order to have a consistent style across the book, we suggest to:
 - Follow
   [RFC 1574](https://github.com/rust-lang/rfcs/blob/master/text/1574-more-api-documentation-conventions.md#appendix-a-full-conventions-text).
   Tl;dr:
-  - Prefer full types name. For example `Option<T>` instead of `Option`.
+  - Prefer full type names. For example `Option<T>` instead of `Option`.
   - Prefer line comments (`//`) over block comments (`/* */`) where applicable.
 
 ## Check the article locally

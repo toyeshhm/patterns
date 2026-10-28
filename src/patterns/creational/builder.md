@@ -89,7 +89,7 @@ function parameters. Since you can only have a single method with a given name,
 having multiple constructors is less nice in Rust than in C++, Java, or others.
 
 This pattern is often used where the builder object is useful in its own right,
-rather than being just a builder. For example, see
+rather than being just a builder. For example,
 [`std::process::Command`](https://doc.rust-lang.org/std/process/struct.Command.html)
 is a builder for
 [`Child`](https://doc.rust-lang.org/std/process/struct.Child.html) (a process).

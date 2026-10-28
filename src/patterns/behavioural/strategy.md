@@ -99,7 +99,7 @@ fn main() {
 
 The main advantage is separation of concerns. For example, in this case `Report`
 does not know anything about specific implementations of `Json` and `Text`,
-whereas the output implementations does not care about how data is preprocessed,
+whereas the output implementations do not care about how data is preprocessed,
 stored, and fetched. The only thing they have to know is a specific trait to
 implement and its method defining the concrete algorithm implementation
 processing the result, i.e., `Formatter` and `format(...)`.
@@ -113,7 +113,7 @@ choose from then users have to know how strategies differ from one another.
 ## Discussion
 
 In the previous example all strategies are implemented in a single file. Ways of
-providing different strategies includes:
+providing different strategies include:
 
 - All in one file (as shown in this example, similar to being separated as
   modules)
@@ -161,7 +161,7 @@ fn main() {
 }
 ```
 
-In fact, Rust already uses this idea for `Options`'s `map` method:
+In fact, Rust already uses this idea for `Option`'s `map` method:
 
 ```rust
 fn main() {

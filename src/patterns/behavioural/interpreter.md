@@ -18,7 +18,7 @@ Basically, for any kind of problems we define:
 
 Our goal is to translate simple mathematical expressions into postfix
 expressions (or
-[Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation))
+[Reverse Polish notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)).
 For simplicity, our expressions consist of ten digits `0`, ..., `9` and two
 operations `+`, `-`. For example, the expression `2 + 4` is translated into
 `2 4 +`.
@@ -44,7 +44,7 @@ term -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 **NOTE:** This grammar should be further transformed depending on what we are
 going to do with it. For example, we might need to remove left recursion. For
 more details please see
-[Compilers: Principles,Techniques, and Tools](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)
+[Compilers: Principles, Techniques, and Tools](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)
 (aka Dragon Book).
 
 ## Solution
@@ -105,7 +105,7 @@ pub fn main() {
 ## Discussion
 
 There may be a wrong perception that the Interpreter design pattern is about
-design grammars for formal languages and implementation of parsers for these
+designing grammars for formal languages and implementation of parsers for these
 grammars. In fact, this pattern is about expressing problem instances in a more
 specific way and implementing functions/classes/structs that solve these problem
 instances. Rust language has `macro_rules!` that allow us to define special
